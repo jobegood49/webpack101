@@ -1,3 +1,3 @@
-/**
- * Created by jonathannicolas on 03/09/2017.
- */
+module.exports = function (value) {
+    console.log(value);
+}
