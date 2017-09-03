@@ -1,0 +1,22 @@
+{
+  "name": "webpack101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack assets/js/app.js  assets/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobegood49/webpack101.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jobegood49/webpack101/issues"
+  },
+  "homepage": "https://github.com/jobegood49/webpack101#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
