@@ -1,6 +1,12 @@
-var log = require('./log.js');
+import config from './config';
+import $ from 'jquery';
+console.log(config);
 
-let a = 'hello';
-var[b,,c] = [1,2,3,4,5]
+$('body').css('backgroundColor', '#FFF');
 
-log(b);
+//var log = require('./log.js');
+//
+//let a = 'hello';
+//var[b,,c] = [1,2,3,4,5]
+//
+//log(b);
