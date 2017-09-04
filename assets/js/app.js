@@ -1,3 +1,6 @@
-var log = require('./log.js')
+var log = require('./log.js');
 
-log('Hello')
+let a = 'hello';
+var[b,,c] = [1,2,3,4,5]
+
+log(b);

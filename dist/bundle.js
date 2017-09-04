@@ -67,17 +67,29 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var log = __webpack_require__(1)
+"use strict";
 
-log('Hello')
+
+var log = __webpack_require__(1);
+
+var a = 'hello';
+var _ref = [1, 2, 3, 4, 5],
+    b = _ref[0],
+    c = _ref[2];
+
+
+log(b);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 module.exports = function (value) {
     console.log(value);
-}
+};
 
 /***/ })
 /******/ ]);
